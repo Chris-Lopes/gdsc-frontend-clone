@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header class="text-gray-400 sticky top-0 z-40 w-full border-b bg-inherit">
-      <div class="container mx-auto my-0 flex py-0 px-16 flex-row items-center sm:justify-between space-x-4 sm:space-x-0 h-16">
-        <div class="flex items-center">
+    <header className="text-gray-400 sticky top-0 z-40 w-full border-b bg-inherit">
+      <div className="container mx-auto my-0 flex py-0 px-16 flex-row items-center sm:justify-between space-x-4 sm:space-x-0 h-16">
+        <div className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             version="1.0"
@@ -27,17 +29,20 @@ const Navbar = () => {
               <path d="M498 280 c-35 -22 -48 -36 -48 -53 0 -51 40 -60 100 -22 22 14 43 25 47 25 5 0 16 7 26 14 16 13 14 16 -27 40 -24 14 -46 26 -48 26 -2 0 -24 -14 -50 -30z" />{" "}
             </g>{" "}
           </svg>
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-            <Link href={"/"} class="mr-5 hover:text-white cursor-pointer">
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+            <Link href={"/"} className="mr-5 hover:text-white cursor-pointer">
               Home
             </Link>
-            <Link href={"/apply"} class="mr-5 hover:text-white cursor-pointer">
+            <Link
+              href={"/apply"}
+              className="mr-5 hover:text-white cursor-pointer"
+            >
               Apply
             </Link>
           </nav>
         </div>
-        <div class="flex space-x-4">
-          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+        <div className="flex space-x-4">
+          <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             Profile picture
           </button>
         </div>
