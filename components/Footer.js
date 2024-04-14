@@ -1,13 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer class="text-gray-600 body-font">
-      <div class="bg-gray-100 ">
-        <div class="container px-10 py-2 mx-auto flex items-center sm:flex-row flex-col justify-between">
-          <div class="flex items-center">
+    <footer className="text-gray-600 body-font">
+      <div className="bg-gray-100 ">
+        <div className="container px-10 py-2 mx-auto flex items-center sm:flex-row flex-col justify-between">
+          <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.0"
@@ -27,7 +26,7 @@ const Footer = () => {
                 <path d="M498 280 c-35 -22 -48 -36 -48 -53 0 -51 40 -60 100 -22 22 14 43 25 47 25 5 0 16 7 26 14 16 13 14 16 -27 40 -24 14 -46 26 -48 26 -2 0 -24 -14 -50 -30z" />
               </g>
             </svg>
-            <span class="ml-3 text-sm">
+            <span className="ml-3 text-sm">
               Built by{" "}
               <Link
                 className="font-bold text-decoration-line: underline"
@@ -38,7 +37,7 @@ const Footer = () => {
             </span>
           </div>
 
-          <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+          <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
             © {new Date().getFullYear()}{" "}
             <Link
               className="font-bold text-decoration-line: underline"
